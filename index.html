@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número Secreto</title>
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main-container">
+        <div id="start-container">
+            <h1 id="initial-text">Juguemos al número secreto</h1>
+            <button id="start">Comencemos</button>
+        </div>
+        <div id="play-container">
+            <div id="instruction-container">
+                <h1 id="tries-text">Adivina el número del 1 al 10 <br> Tienes 3 intentos</h1>
+            </div>
+            <div id="major-container">
+                <h1 id="major-text">El número es mayor a number</h1>
+            </div>
+            <div id="minor-container">
+                <h1 id="minor-text">El número es menor</h1>
+            </div>
+            <input id="guess-number" type="text" placeholder="Escribe tu número aquí">
+            <button id="guess">guess</button>
+        </div>
+        <div id="new-game-container">
+            <div id="succes-container">
+                <h1 id="succes-text">Acertaste el número secreto era <br> Lo hiciste en intentos</h1>
+            </div>
+            <div id="failure-container">
+                <h1 id="failure-text">Fallaste, el número era</h1>
+            </div>
+            <h1 id="new-game">¿Quiéres jugar otra vez?</h1>
+            <div id="play-again-button">
+                <button id="restart-button">Sí</button>
+                <button id="finish-button">No</button>
+            </div>
+        </div>
+        <div id="thanks-container">
+            <h1 id="thanksfull-text">Gracias por jugar</h1>
+        </div>
+    </div>
+</body>
+</html>
